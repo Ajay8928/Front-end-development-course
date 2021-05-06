@@ -1,0 +1,66 @@
+.ProductPreview
+{
+  width:50%;
+  position: relative;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+.FeatureData
+{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%) ;
+  font-size: 48px;
+  color: white;
+  font-size: 24px;
+
+}
+.ProductPreview>img
+{
+  width: 100%;
+}
+.TimeSection
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size: 48px;
+  font-weight: 600;
+}
+.HeartSection
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size: 48px;
+  font-weight: 600;
+}
+.HeartSection>i
+{
+  color: red;
+  animation: beats 1s infinite;
+  font-size: 35px;
+}
+@keyframes beats {
+  0%
+  {
+    trnasform:scale(1,1);
+  }
+  50%{
+    transform:scale(1.2,1.2);
+  }
+  100%
+  {
+    transform:scale(1.5,1.5);
+  }
+  
+}
+.HeartSection>p{
+  margin-top:5px;
+  font-size:35px;
+}

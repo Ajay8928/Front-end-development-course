@@ -1,0 +1,69 @@
+.ProductDetails
+{
+  width:50%;
+  position: relative;
+  margin-top: 52px;
+}
+.ProductTitle
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:600px;
+  font-size: 38px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.ProductDecription
+{
+  font-size: 20px;
+  color:rgba(0, 0, 0, 0.8);
+  margin-bottom: 16px;
+}
+.SectionHeading
+{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.ProductImage
+{
+  width: 100%;
+  max-width: 80px;
+  margin-right:12px;
+  cursor: pointer;
+}
+.SelectedProductImage
+{
+  border: 3px solid;
+  border-color: rgb(43, 80, 43);
+  border-radius: 6px;
+}
+.FeatureItem
+{
+  min-width:80px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  border: 0;
+  padding:12px 24px;
+  margin-right: 12px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+.SelectedFeatureItem
+{
+  color: white;
+  background-color: grey;
+}
+.BuyNow
+{
+
+  background-color:teal;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+  margin-top:25px;
+  padding:12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: content-box;
+}

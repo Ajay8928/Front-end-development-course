@@ -1,0 +1,35 @@
+#btn
+{
+    background-color: rgb(114, 166, 209);
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.inpbox
+{
+    margin-top: -30px;
+    width: 100%;
+    border-radius: 6px;
+    height: 24px;
+    border: none;
+}
+#log-in
+{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    background-color: lightgrey;
+    padding: 20px 20px;
+    margin-right: 500px;
+}
+#please
+{
+    color: red;
+    position: relative;
+    margin-top: -7px;
+    letter-spacing: 1px;
+    display: none;
+}
